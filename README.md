@@ -4,7 +4,7 @@ A silly Javascript library for "Bad Hax". Allows you to watch variables for spec
 
 # Example
 
-```
+```javascript
 var name = "Max";
 var age = 18;
 
