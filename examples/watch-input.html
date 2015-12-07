@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<script src="whenly.js"></script>
+		<script>
+
+			var w = whenly;
+
+			var name;
+			var age;
+
+			w.when(this, "name").is("Max", function(){
+				console.log("Hey "+name);
+			});
+
+			w.when(this, "age").is(18, function(){
+				console.log("You are "+age+" years old");
+			});
+
+			w.init();
+
+
+			function nameChanged(value) {
+				name = value;
+			}
+
+			function ageChanged(value){
+				age = value;
+			}
+		</script>
+	</head>
+	<body>
+	<p>Name</p>
+	<input type="text" oninput="nameChanged(this.value)"></input>
+	<p>Age</p>
+	<input type="text" oninput="ageChanged(this.value)"></input>
+	</body>
+</html>
