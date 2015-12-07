@@ -1,4 +1,4 @@
-var whenly = (function(){
+var Whenly = (function(){
 	var w = {},
 		digestList = [];
 	
