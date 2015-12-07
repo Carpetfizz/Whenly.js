@@ -1,6 +1,6 @@
-# whenly.js
+# Whenly.js
 
-A silly Javascript library for "Bad Hax". Allows you to watch variables for specific value changes. The theme of "Bad Hax" was to create the most useless (but working) hack. Check out the source `whenly.js` if you want to see some grotesque code.
+A silly Javascript library for "Bad Hax". Allows you to watch variables for specific value changes. The theme of "Bad Hax" was to create the most useless (but working) hack. Check out the source `Whenly.js` if you want to see some grotesque code.
 
 # Example
 
