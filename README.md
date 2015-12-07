@@ -16,4 +16,6 @@ Whenly.when(this, "age").is(18, function(){
   //handle variable change
 });
 
+Whenly.init();
+
 ```
